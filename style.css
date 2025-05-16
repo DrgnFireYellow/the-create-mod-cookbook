@@ -1,5 +1,47 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('Minecraftia-Regular.woff2') format('woff2'),
+        url('Minecraftia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background: url(https://github.com/Creators-of-Create/Create/blob/mc1.20.1/dev/src/main/resources/assets/create/textures/block/andesite_casing.png?raw=true);
     background-size: 10vw;
     image-rendering: pixelated;
+    font-family: Minecraftia;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 12px;
+}
+
+ul {
+    text-align: left;
+    list-style-type: square;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    width: 80vw;
+    min-height: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
